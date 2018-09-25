@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="HuaweiWatch"
+           fetch="https://github.com"
+           revision="lineage-16.0" />
+
+ <!-- Huawei Watch Device Repos -->
+  <project path="device/google/clockwork" name="HuaweiWatch/android_device_google_clockwork" groups="device" remote="HuaweiWatch"/>
+  <project path="device/huawei/sturgeon" name="HuaweiWatch/android_device_huawei_sturgeon" groups="device" remote="HuaweiWatch"/>
+
+ <!-- Huawei Watch Kernel Repo -->
+  <project path="kernel/huawei/sturgeon" name="HuaweiWatch/android_kernel_huawei_sturgeon" remote="HuaweiWatch"/>
+
+ <!-- Huawei Watch Vendor Repo -->
+  <project path="vendor/huawei/sturgeon" name="HuaweiWatch/android_vendor_huawei_sturgeon" remote="HuaweiWatch"/>
+  <project path="vendor/google/clockwork" name="HuaweiWatch/android_vendor_google_clockwork" remote="HuaweiWatch"/>
+
+</manifest>
